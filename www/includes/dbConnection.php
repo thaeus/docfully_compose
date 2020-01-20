@@ -1,6 +1,6 @@
 <?php
 $hostname = "docfully_mysql";//"127.0.0.1";
-$username = "root";//@35.236.12.238";
+$username = "docfully_web_app";//@35.236.12.238";
 //$password = "1234";//'root';
 $db = "docfully_web";
 /**Current database:       docfully_web
@@ -14,8 +14,8 @@ Protocol version:       10
 Connection:             35.236.84.212 via TCP/IP
 TCP port:               3306 */
 
- //$password = "1111dfc882e9fd1e65c53becdcab0c1b662645ec23c0";
-  $password = "tiger";
+ $password = "1111dfc882e9fd1e65c53becdcab0c1b662645ec23c0";
+  //$password = "tiger";
 
  	//1. Create a database connection - %dbhandle is a handle
 	$dbhandle = mysqli_connect($hostname, $username, $password) or die("Unable to CONNECT to MySQL");
