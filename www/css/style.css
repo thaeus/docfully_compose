@@ -1,0 +1,188 @@
+@import url(http://fonts.googleapis.com/css?family=Nunito); /*--- CHANGE Body Font --*/
+@import url(http://fonts.googleapis.com/css?family=Oxygen); /*--- CHANGE Heading Font--*/
+@import url(http://fonts.googleapis.com/css?family=Fjalla+One); /*--- CHANGE Navigation Font --*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color/; none;
+    font-family: 'Nunito',sans-serif;
+    font-size: 18px;
+}
+
+h1 {
+    font-family: 'Oxygen', sans-serf;
+    text-align: center;
+    font-size: 175%;
+    color: purple;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding: 3% 0;
+}
+
+h2, h3, h4 {
+    font-family: 'Oxygen',san-serif;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1%;
+}
+
+p {
+    padding: 2%;
+    color: "#00FA9A";
+    text-align: justify;   
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+#wrapper {
+    margin: 0 auto;
+    max-width: 1120x;
+}
+
+.clearfix {
+    clear: both;
+}
+
+header {
+    width; 97%;
+}
+
+#logo {
+    float: left;
+    margin: 1% 0 0 5%;       
+}
+
+#callout {
+    float: right;
+    margin: 6% 3% 2% 0;
+}
+
+#callout h2 {
+    text-align: right;
+    color: #7F7F7F;
+}
+
+#banner-wrapper {
+    max-width: 1020px;
+    margin:  0 auto;
+    padding-bottom: 3%;
+}
+
+.slider img{
+    width: 100%;
+    height: 90%;
+}
+
+div.chart img{
+	height:150px;
+}
+
+.one-third img{
+	height:250px;
+}
+
+.bx-prev, .bx-next {
+    display: none;
+}
+.one-thirdy{
+    width: 28%;
+    float: left;
+    margin: 40% 0 3% 4%;
+}
+
+.one-third{
+    width: 28%;
+    float: left;
+    margin: 2% 0 3% 4%;
+}
+.chart {
+    padding: 0 7%;
+    text-align: center;
+}
+h2.welcome {
+    margin-top: 4%;
+    text-align: left;   
+    height: 10em;
+    display: flex;
+    align-items: center }
+    margin: 0 
+}
+.left-col {
+    width: 60%;
+    float: left;
+    margin: 4% 0 4% 4%;
+}
+.sidebar {
+    width: 26%;
+    float: left;
+    margin: 4%;
+}
+.sidebar img {
+    opacity: .7;
+}
+footer {
+    background:purple ;
+    width: 100%;
+    padding-top: 1%;
+    overflow: auto;
+}
+.one-half {
+    width: 44%;
+    float: left;
+    margin: 2% 0 3% 4%;
+}
+footer h3{
+    text-decoration: underline;
+}
+.footercontact {
+    text-align: center;
+}
+/*-------------------- Media Queries ! -------------*/
+@media screen and (max-width: 769px) {
+    #wrapper {
+        margin-top: -1%;
+    }
+    #callout {
+        width: 100%;
+        margin: 3% 0 2% 0;       
+    }
+    .one-third {
+        width: 100%;
+        margin: 4% 0;
+    }
+	
+    h1 {
+        font-size: 125%;
+        letter-spacing: 2px;     
+    }
+    h2.welcome {
+        font-size: 120%;
+    }
+    .left-col {
+        width: 100%;
+        margin: 0 0 3% 0;
+    }
+    .sidebar {
+        width: 100%;
+        margin: 0;
+    }
+    .sidebar img {
+        opacity: 1;
+    }
+    .one-half {
+        width: 100%;
+        margin: 0;   
+        text-align: center;
+    }
+    img {
+        width: 100%;
+    }
+}
