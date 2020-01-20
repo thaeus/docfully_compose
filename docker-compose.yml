@@ -26,6 +26,9 @@ services:
     volumes: 
       - ${MYSQL_DATA_DIR-./data/mysql}:/var/lib/mysql
       - ${MYSQL_LOG_DIR-./logs/mysql}:/var/log/mysql
+      - ./dumps/A_docfully_google_data.sql:/docker-entrypoint-initdb.d/A_docfully_google_data.sql
+      - ./dumps/B_add_user_stored_proc.sql:/docker-entrypoint-initdb.d/B_add_user_stored_proc.sql
+      - ./dumps/C_get_user_stored_proc.sql:/docker-entrypoint-initdb.d/C_get_user_stored_proc.sql
     environment:
       MYSQL_ROOT_PASSWORD: 1111dfc882e9fd1e65c53becdcab0c1b662645ec23c0
       MYSQL_DATABASE: docfully_web
