@@ -16,7 +16,7 @@
 	<link href="css/jquery.bxslider.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
 	<link href="css/nav.css" rel="stylesheet">
-	<link href="videoConf.php">
+	<link href="videoConf.html">
 	<title>Medical Questionnaire</title>
 </head>
 <body background="Backgrounds_Interweaving_gray_and_blue_stripes_095348_.jpg">
@@ -50,7 +50,7 @@
 
 							</li>
                             <li>
-								<a href="videoConf.php"><font color="#483D8B">Video Conference</font></a>
+								<a href="videoConf.html"><font color="#483D8B">Video Conference</font></a>
                                 </li>
 							<li>
 								<a href="medical.php"><font color="#483D8B">Main</font></a>

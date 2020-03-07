@@ -64,7 +64,7 @@
 							</li>
 
 							<li>
-								<a href="videoConf.php"><font color="#483D8B">Video Conference</font></a>
+								<a href="videoConf.html"><font color="#483D8B">Video Conference</font></a>
 							</li>
 							<li><a href="logout.php"><font color="#483D8B">Logout</font></a></li>
 						</ul>
