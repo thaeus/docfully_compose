@@ -59,7 +59,7 @@ Docfully Medical
 </div>
 <!---End Nav -->
 <h1><font color="palegreen"><h1></h1> Link to the offical Medical Login page</font>
-<a href="http://130.211.166.62/admin/login">Click here</a></h1>
+<a href="http://test.docfully.com/admin/login">Click here</a></h1>
 </div>
 </div>
 </body>
